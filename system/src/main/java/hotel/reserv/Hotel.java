@@ -1,11 +1,11 @@
 package hotel.reserv;
 
-public class AddHotel {
+public class Hotel {
     public String hotelName;
     public int weekDayCostForRegularCustomer,weekendCostForRegularCustomer;
     public int weekDayCostForRewardsCustomer,weekendCostForRewardssCustomer;
     public int rating;
-    public AddHotel(String hotelName,int rating,int weekDayCostForRegularCustomer,int weekendCostForRegularCustomer,int weekDayCostForRewardsCustomer,int weekendCostForRewardssCustomer){
+    public Hotel(String hotelName,int rating,int weekDayCostForRegularCustomer,int weekendCostForRegularCustomer,int weekDayCostForRewardsCustomer,int weekendCostForRewardssCustomer){
         this.hotelName=hotelName;
         this.rating=rating;
         this.weekDayCostForRegularCustomer=weekDayCostForRegularCustomer;
@@ -13,5 +13,6 @@ public class AddHotel {
         this.weekendCostForRegularCustomer=weekendCostForRegularCustomer;
         this.weekendCostForRewardssCustomer=weekendCostForRewardssCustomer;
     }
+    
     
 }
